@@ -6,7 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
 ### `npm start`
+
+#### Warning: If you see an error like: ERR_OSSL_EVP_UNSUPPORTED, you can run `export NODE_OPTIONS=--openssl-legacy-provider` to use the legacy OpenSSL provider.
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
